@@ -1,0 +1,15 @@
+{
+  "name": "sol-of-the-wild-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sol of the Wild — a single-file HTML5 Canvas platformer",
+  "scripts": {
+    "test:syntax": "node test/check-syntax.js",
+    "test:smoke": "node test/smoke.js",
+    "test:render": "node test/screenshot.js",
+    "test": "npm run test:syntax && npm run test:smoke && npm run test:render"
+  },
+  "devDependencies": {
+    "puppeteer": "^23.0.0"
+  }
+}
